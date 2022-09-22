@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  color: grey;
+}
+
+/* code for section one  */
+.section-one {
+  background-image: url(./images/developer.png);
+  position: relative;
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  position: absolute;
+  left: 28%;
+  top: 10%;
+  line-height: 60px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.text-Hi {
+  font-size: 90px;
+}
+
+.text-detail {
+  font-size: 25px;
+}
+
+.text h1 {
+  font-size: 60px;
+}
+
+/* code end for section one  */
+
+/* code start for section two  */
+
+.section-two {
+  padding: 50px;
+  text-align: center;
+
+  background-color: black;
+}
+
+.text-stwo {
+  font-size: 60px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.text-you {
+  font-size: 100px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+/* code end for section two  */
+
+/* code start for section three  */
+
+.section-three {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.details {
+  box-shadow: 2px 2px 5px gray;
+
+  border-radius: 20px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  transition: 0.3s ease-in-out;
+}
+
+.details:hover {
+  box-shadow: 4px 4px 7px gray;
+
+  border-radius: 20px;
+
+  transform: scale(1.1, 1.1);
+  /* transition-duration: 1s;
+  transition-timing-function: ease-in-out; */
+}
+
+.details p {
+  width: 300px;
+  padding: 0px 20px 40px 20px;
+}
+
+.details h3 {
+  padding: 20px;
+}
+
+/* code end for section three  */
+
+/* code start for section four  */
+
+.section-four {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.detail-box {
+  color: white;
+
+  background-color: #515603;
+
+  height: 300px;
+
+  width: 750px;
+  padding: 25px;
+}
+
+#second-box {
+  background-color: #722300;
+}
+
+.detail-box h1 {
+  padding: 15px;
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+}
+
+.detail-box p {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+/* code end for section four  */
+
+/* code start for section five  */
+
+.section-five {
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+/* code end for section five  */
